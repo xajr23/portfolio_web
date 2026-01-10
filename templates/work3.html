@@ -18,7 +18,7 @@
   <title>Title page</title>  
 
 <link href="static/main.3f6952e4.css" rel="stylesheet">
-<link href="static/style.css" rel="stylesheet"></head>
+<link href="static/style.css" rel="stylesheet"></head></head>
 
 <body class="">
 <div id="site-border-left"></div>
@@ -42,7 +42,6 @@
           <li><a href="./works.html" title="">02 : Works</a></li>
           <li><a href="./about.html" title="">03 : About me</a></li>
           <li><a href="./contact.html" title="">04 : Contact</a></li>
-          <li><a href="./components.html" title="">05 : Components</a></li>
         </ul>
 
 
@@ -64,15 +63,15 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <img src="static/assets/images/jpg_vs_png.png" class="hero-img" alt="">
+        <img src="static/assets/images/acrobat.png" class="hero-img" alt="">>
         <div class="card-container">
           <div class="text-center">
-            <h1 class="h2">001 : Procesamiento de Imágenes con Python</h1>
+            <h1 class="h2">002 : Procesamiento y manipulación de PDFs con Python</h1>
           </div>
-          <p>Desarrollé un script en Python capaz de convertir automáticamente cientos de imágenes en formato ".jpg" a ".png". El programa procesa carpetas completas, crea la estructura de destino si no existe y garantiza que cada archivo mantenga su nombre original y calidad..</p>
+          <p>Este proyecto utiliza Python para automatizar el trabajo con documentos PDF. Aprendí a combinar varios archivos en un solo documento, agregar marcas de agua y trabajar página por página usando la librería pypdf.</p>
 
           <blockquote>
-            <p>El objetivo fue automatizar un proceso repetitivo y aprender los fundamentos del procesamiento de imágenes con Python.</p>
+            <p>Usé la librería pypdf para combinar varios PDF en uno solo y agregar una marca de agua automáticamente a cada página.</p>
           </blockquote>
         </div>
       </div>
@@ -81,13 +80,44 @@
       
       <div class="col-md-8 col-md-offset-2 section-container-spacer">
         <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <img src="static/assets/images/bulbasaur.jpg" class="img-responsive" alt="">
-            <p>Bulbasaur en formato jpg</p>
+          <div class="col-xs-12 col-md-4">
+            <img src="static/assets/images/dummy pdf.png"
+                 class="img-responsive" alt="PDF dummy">
           </div>
-          <div class="col-xs-12 col-md-6">
-            <img src="static/assets/images/bulbasaur.png" class="img-responsive" alt="">
-            <p>Bulbasaur en formato png</p>
+          <div class="col-xs-12 col-md-4">
+            <img src="static/assets/images/tilt pdf.png"
+                 class="img-responsive" alt="PDF tilt">
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <img src="static/assets/images/twopage.png"
+                 class="img-responsive" alt="PDF twopage">
+          </div>
+          <div class="col-xs-12">
+            <blockquote>
+              <p class="text-center">PDFs separados</p>
+            </blockquote>
+          </div>
+      </div>
+          <div class="row" style="margin-top: 30px;">
+            <div class="col-xs-12 col-md-12">
+              <img src="static/assets/images/super pdf.png"
+                  class="img-responsive" alt="PDFs juntos">
+              <blockquote>
+                <p class="text-center">PDFs juntos</p>
+              </blockquote> 
+            </div>
+          </div>
+          <div class="row" style="margin-top: 30px;">
+            <div class="col-xs-12 col-md-12">
+              <img src="static/assets/images/watermarked_pdf.png"
+                  class="img-responsive"
+                  alt="PDF con marca de agua">
+              <blockquote>
+                <p class="text-center">PDF con marca de agua</p>
+              </blockquote>
+            </div>
+          </div>
+          </div>
           </div>
         </div>
       </div>
@@ -96,12 +126,24 @@
         <blockquote>
           <p>Código usado:</p>
         </blockquote>
-        <img src="static/assets/images/code_image_processing.png" class="img-responsive" alt="">
-      </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="static/assets/images/código_watermarker.png" 
+                class="img-responsive" alt="Código Watermarker">
+            <blockquote>
+              <p>Código para la marca de agua</p>
+            </blockquote>    
+          </div>
 
-    </div>
-  </div>
-</div>
+          <div class="col-xs-12 col-md-6">
+            <img src="static/assets/images/código_pdf_merger.png" 
+               class="img-responsive" alt="Código PDF Merger">
+            <blockquote>
+              <p>Código para juntar los PDFs</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
 
 
 <footer class="footer-container text-center">
