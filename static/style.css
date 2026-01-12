@@ -1,17 +1,32 @@
 .black-image-project-hover {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;      
+    overflow: hidden;   
 }
 
 .black-image-project-hover::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.35); /* más oscuro = 0.5 */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.35);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.black-image-project-hover:hover::before {
+    opacity: 1;
+}
+
+.black-image-project-hover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .hero-img {
